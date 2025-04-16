@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(Ataraxia.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 90vw;
+  height: 95vh;
+  background-color: rgba(228, 227, 227, 0.219);
+  backdrop-filter: blur(5px);
+  border: 1px solid #fff;
+  box-shadow: 1px 1px 0.1rem #dbdada9f;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+span{
+  width: 95%;
+}
+
+.top {
+  height: 20%;
+  width: 100%;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  padding: 0 1rem;
+  gap: 0.25rem;
+  display: flex block;
+  margin-inline: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.topContent {
+  font-size: 1.25rem;
+  height: fit-content;
+  padding: 0.5rem 0;
+  border: 1px solid #5a5a5a62;
+  text-transform: capitalize;
+}
+
+.top h1{
+text-shadow: 4px 4px 1rem #fff;
+font-size: 4rem;
+}
+
+#inputTask {
+  width: 80%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+#inputTask:focus {
+  outline: none;
+}
+#addTask {
+  width: 19%;
+  border-bottom-right-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.bottom {
+  height: 75%;
+  width: 70%;
+  /* background-color: rgb(134, 76, 86); */
+  /* border-top-right-radius: 1rem; */
+  /* border-top-left-radius: 1rem; */
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+  margin-top: 1rem;
+}
+
+li {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  background-color: rgba(138, 161, 212, 0.637);
+  padding: 0.5rem;
+  justify-content: space-between;
+  font-size: 1rem;
+  align-items: center;
+}
+
+li h3 {
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+li button {
+  font-size: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  border: 1px solid #66616175;
+}
